@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      padding: 0;
+      margin: 0;
+    }
+    #container {
+      background-image: url(./bg-full.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position:center center;
+      display: flex;
+      height: 100vh;
+      width: 100vw;
+      flex-flow: column;
+      font-family: Arial, Helvetica, sans-serif;
+      /* max-height: 1080px; */
+    }
+
+    #main {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+    }
+
+    #col1 {
+      width: 37.5%;
+      height: 73%;
+      background-image: url(./main.jpg);
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      overflow: hidden;
+      /* border: 1px white solid; */
+      color: white;
+      /* font-weight: bold; */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    #col2{
+      width: 37.5%;
+      height: 73%;
+      /* border: 1px solid white; */
+      display: flex;
+      flex-direction: column;
+    }
+    img{
+      width: 30%;
+      
+    }
+    #text1{
+      font-size: 4.5vh;
+      text-align: center;
+      font-weight: bold;
+    }
+    #text2{
+      font-size: 2.5vh;
+      text-align: center;
+      width: 85%;
+    }
+    #row1{
+      height: 50%;
+      width: 100%;
+      background-image: url(./cloud.png);
+      background-color: lightgray;
+      background-repeat: no-repeat;
+      background-position: 100% 101%;
+      background-size:40%;
+      display: flex;
+      color: black;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 5%;
+      box-sizing: border-box;
+    }
+    #row2{
+      height: 50%;
+      width: 100%;
+      background-color: black;
+      background-image: url(./tifa.png);
+      background-repeat: no-repeat;
+      background-size: 40%;
+      background-position: 2.5% bottom;
+      display: flex;
+      color: white;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-end;
+      padding: 5%;
+      box-sizing: border-box;
+    }
+    #text3,#text5{
+      font-size: 4.5vh;
+      flex-direction: column;
+      font-weight: bold;
+      
+    }
+    #text4,#text6{
+      font-size: 2vh;
+      width: 65%;
+      flex-direction: column;
+    }
+  </style>
+</head>
+
+<body>
+
+<div id="container">
+  <div id="main">
+    <div id="col1">
+      <img src="./ps4-ff7.png" alt="">
+      <div id="text1">AVAILABLE NOW</div>
+      <div id="text2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem natus mollitia deserunt est, eligendi facere quam quas modi quos porro ad nostrum voluptatibus et, autem neque in, exercitationem labore velit.</div>
+    </div>
+    <div id="col2">
+      <div id="row1"><div id="text3">Cloud</div>
+      <div id="text4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem natus mollitia deserunt est, eligendi facere quam quas modi quos porro ad nostrum voluptatibus et, autem neque in, exercitationem labore velit.</div></div>
+      <div id="row2">
+      <div id="text6"><span id="text5">Tifa</span><br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem natus mollitia deserunt est, eligendi facere quam quas modi quos porro ad nostrum voluptatibus et, autem neque in, exercitationem labore velit.</div></div>
+    </div>
+  </div>
+</div>
+
+
+</body>
+
+</html>
